@@ -5,7 +5,18 @@ export default function Home() {
     <div className="flex-1 flex flex-col items-center justify-center bg-[#313338] text-center p-8">
       <div className="text-[#43B581] mb-6">
         <svg className="w-20 h-20 mx-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 3L4 7v2h16V7l-8-4zm-6 6v8h3v-8H6zm5 0v8h2v-8h-2zm5 0v8h3v-8h-3zM4 19h16v2H4v-2z" fill="currentColor"/>
+          {/* Modern abstract bank building shape */}
+          <path 
+            d="M4 10V20H7V10H4ZM10 10V20H14V10H10ZM17 10V20H20V10H17ZM2 22H22V20H2V22ZM12 2L2 8V10H22V8L12 2Z"
+            fill="currentColor"
+          />
+          {/* Additional modern accent lines */}
+          <path 
+            d="M4 18H7M10 18H14M17 18H20" 
+            stroke="currentColor" 
+            strokeWidth="0.5" 
+            strokeLinecap="round"
+          />
         </svg>
       </div>
       <div className="mb-2">
